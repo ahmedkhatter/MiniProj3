@@ -1,0 +1,88 @@
+Enter grid width
+7
+Enter grid height
+7
+
+Enter Start cell (*X coordinate* *Y coordinate* *Layer to start in* )
+0 0 1
+Enter Target cell (*X coordinate* *Y coordinate* *Layer to start in* )
+2 2 2
+
+
+Layer : 1
+
+
+1   1   1   0   0   0   0   
+0   0   0   0   0   0   0   
+0   0   0   0   0   0   0   
+0   0   0   0   0   0   0   
+0   0   0   0   0   0   0   
+0   0   0   0   0   0   0   
+0   0   0   0   0   0   0   
+
+Layer : 2
+
+
+0   0   1   0   0   0   0   
+0   0   1   0   0   0   0   
+0   0   1   0   0   0   0   
+0   0   0   0   0   0   0   
+0   0   0   0   0   0   0   
+0   0   0   0   0   0   0   
+0   0   0   0   0   0   0   
+
+Layer : 3
+
+
+0   0   0   0   0   0   0   
+0   0   0   0   0   0   0   
+0   0   0   0   0   0   0   
+0   0   0   0   0   0   0   
+0   0   0   0   0   0   0   
+0   0   0   0   0   0   0   
+0   0   0   0   0   0   0   
+
+COST: 14
+CPU time used: 0.099 ms
+
+Enter Start cell (*X coordinate* *Y coordinate* *Layer to start in* )
+3 3 3
+Enter Target cell (*X coordinate* *Y coordinate* *Layer to start in* )
+6 6 1
+
+
+Layer : 1
+
+
+1   1   1   0   0   0   0   
+0   0   0   0   0   0   0   
+0   0   0   0   0   0   0   
+0   0   0   1   1   1   1   
+0   0   0   0   0   0   0   
+0   0   0   0   0   0   0   
+0   0   0   0   0   0   1   
+
+Layer : 2
+
+
+0   0   1   0   0   0   0   
+0   0   1   0   0   0   0   
+0   0   1   0   0   0   0   
+0   0   0   0   0   0   1   
+0   0   0   0   0   0   1   
+0   0   0   0   0   0   1   
+0   0   0   0   0   0   1   
+
+Layer : 3
+
+
+0   0   0   0   0   0   0   
+0   0   0   0   0   0   0   
+0   0   0   0   0   0   0   
+0   0   0   1   0   0   0   
+0   0   0   0   0   0   0   
+0   0   0   0   0   0   0   
+0   0   0   0   0   0   0   
+
+COST: 36
+CPU time used: 0.092 ms

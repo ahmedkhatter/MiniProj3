@@ -1,0 +1,43 @@
+Enter grid width
+6
+Enter grid height
+6
+
+Enter Start cell (*X coordinate* *Y coordinate* *Layer to start in* )
+3 2 1
+Enter Target cell (*X coordinate* *Y coordinate* *Layer to start in* )
+4 2 3
+
+
+Layer : 1
+
+
+0   0   0   0   0   0   
+0   0   0   0   0   0   
+0   0   0   1   1   0   
+0   0   0   0   0   0   
+0   0   0   0   0   0   
+0   0   0   0   0   0   
+
+Layer : 2
+
+
+0   0   0   0   0   0   
+0   0   0   0   0   0   
+0   0   0   0   0   0   
+0   0   0   0   0   0   
+0   0   0   0   0   0   
+0   0   0   0   0   0   
+
+Layer : 3
+
+
+0   0   0   0   0   0   
+0   0   0   0   0   0   
+0   0   0   0   1   0   
+0   0   0   0   0   0   
+0   0   0   0   0   0   
+0   0   0   0   0   0   
+
+COST: 11
+CPU time used: 0.082 ms

@@ -1,0 +1,10 @@
+-To use this program run it on a C++ compiler
+
+-Follow the instructions and enter the necessary information and look at the results
+
+-You would keep on adding new routes continously*
+ *Compution would be done when a negative address is given for the start address
+
+-Assuming the cost to move from one cell to the other is 1
+
+-And the cost to use a Via is 10

@@ -81,13 +81,13 @@ int main() {
 
 	while (true) {
 		cout << endl;
-		cout << "Enter Start cell" << endl;
+		cout << "Enter Start cell (*X coordinate* *Y coordinate* *Layer to start in* )" << endl;
 		cin >> startx;
 		cin >> starty;
 		cin >> start_layer;
 		if (startx < 0 || starty < 0 || start_layer < 0)
 			break;
-		cout << "Enter Target cell" << endl;
+		cout << "Enter Target cell (*X coordinate* *Y coordinate* *Layer to start in* )" << endl;
 		cin >> targetx;
 		cin >> targety;
 		cin >> target_layer;
@@ -221,7 +221,7 @@ int main() {
 
 
 		for (int lay = 1; lay <= 3; lay++){
-			cout << endl<<endl;
+			cout <<endl<<endl<<"Layer : "<< lay << endl<<endl;
 			for (int i = 0; i < height; i++) {
 				cout << endl;
 				for (int g = 0; g < width; g++) {
